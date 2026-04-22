@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PielaTech</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <nav>
+            <div class="nav-container">
+                <div class="logo">
+                    PielaTech
+                    <img src="Pielatechin vonkura.png" alt="PielaTech logo">
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#automaatiomme" data-i18n="nav.automaatiomme">Automaatiomme</a></li>
+                    <li><a href="#agenttimme" data-i18n="nav.agenttimme">Agenttimme</a></li>
+                    <li><a href="#meista" data-i18n="nav.meista">Meistä</a></li>
+                    <li><a href="#yhteydenotto" data-i18n="nav.yhteydenotto">Yhteydenotto</a></li>
+                </ul>
+                <button class="hampurilainen" id="hampurilainen">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="nav-napit">
+                    <button class="kieli-nappi" id="kieli-nappi">FI | EN</button>
+                    <button class="teema-nappi" id="teema-nappi">🌙</button>
+                </div>
+            </div>
+        </nav>
+        <section id="hero">
+            <h1 data-i18n="hero.otsikko">Tekoälyautomaatiot ja -agentit pienille ja keskikokoisille yrityksille</h1>
+            <p data-i18n="hero.teksti">PielaTechiltä valmiit tai täysin kustomoitavat tuotteet asennettuina -tietoturva edellä!</p>
+            <p class="slogan" data-i18n="hero.slogan">Anna koneen tehdä sille tarkoitettu työ, keskity itse tärkeimpään.</p>
+            <a href="#yhteydenotto" class="nappi" data-i18n="hero.nappi">Ota yhteyttä</a>
+        </section>
+        <section id="automaatiomme">
+            <h2 data-i18n="automaatiomme.otsikko">Automaatiomme</h2>
+            <p data-i18n="automaatiomme.teksti">Tarjoamme valmiita ja räätälöityjä tekoälyautomaatioita ja agentteja yrityksesi tarpeisiin.</p>
+            <div class="tuote-rivi">
+                <div class="tuote-sarake">
+                    <h3 data-i18n="automaatiomme.valmiit">Valmiit automaatiot</h3>
+                    <p data-i18n="automaatiomme.valmiit_teksti">Nopeasti käyttöönotettavia tekoälyratkaisuja yleisimpiin liiketoiminnan tarpeisiin</p>
+                    <div class="kortit">
+                        <div class="kortti">
+                            <h4 data-i18n="automaatiomme.sahkoposti">Sähköpostiautomaatio</h4>
+                            <p data-i18n="automaatiomme.sahkoposti_teksti">Automatisoi sähköpostiviestintäsi - tilausvahvistukset, muistutukset ja asiakasviestit hoituvat itsestään.</p>
+                        </div>
+                        <div class="kortti">
+                            <h4 data-i18n="automaatiomme.whatsapp">WhatsApp -automaatio</h4>
+                            <p data-i18n="automaatiomme.whatsapp_teksti">Kirjaa tilaukset WhatsApp-busineksesta suoraan exceliin! Todella hyvä esim. kahvilayrittäjille.</p>
+                        </div>
+                        <div class="kortti">
+                            <h4 data-i18n="automaatiomme.kirjanpito">Kirjanpitoautomaatio</h4>
+                            <p data-i18n="automaatiomme.kirjanpito_teksti">Automatisoi kirjanpidon rutiinit - laskujen käsittely, raportointi ja tietojen syöttö hoituvat automaattisesti. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tuote-sarake">
+                    <h3 data-i18n="automaatiomme.kustom">Kustom automaatiot</h3>
+                    <div class="kortti">
+                        <p data-i18n="automaatiomme.kustom_teksti">Täysin räätälöityvät ratkaisut mille vain alalle!</p>
+                        <a href="#yhteydenotto" class="nappi" data-i18n="automaatiomme.nappi">Ota yhteyttä</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="agenttimme">
+            <h2 data-i18n="agenttimme.otsikko">Agenttimme</h2>
+            <p data-i18n="agenttimme.teksti">Agentit mahdollistavat laajemman asian käsittelyn hallitusti.</p>
+            <div class="tuote-rivi">
+                <div class="tuote-sarake">
+                    <h3 data-i18n="agenttimme.valmiit">Valmiit agentit</h3>
+                    <p data-i18n="agenttimme.valmiit_teksti">Agentit toimivat itsenäisesti ja toimivat saadun tiedon pohjalta.</p>
+                    <div class="kortit">
+                        <div class="kortti">
+                            <h4 data-i18n="agenttimme.data">Data-analyysi agentti</h4>
+                            <p data-i18n="agenttimme.data_teksti">Analysoi yrityksesi dataa automaattisesti ja antaa parannusehdotuksia</p>
+                        </div>
+                        <div class="kortti">
+                            <h4 data-i18n="agenttimme.puhelu">Puheluagentti</h4>
+                            <p data-i18n="agenttimme.puhelu_teksti">Vastaa puheluihin automaattisesti, jos olet sillä hetkellä varattu tai kiireinen.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tuote-sarake">
+                    <h3 data-i18n="agenttimme.kustom">Kustom agentit</h3>
+                    <div class="kortti">
+                        <p data-i18n="agenttimme.kustom_teksti">Täysin räätälöidyt agentit juuri sinun yrityksesi tarpeisiin! Kerro tarpeesi tai ilmaise mielenkiintosi, niin suunnitellaan ja rakennetaan sopiva ratkaisu!</p>
+                        <a href="#yhteydenotto" class="nappi" data-i18n="agenttimme.nappi">Ota yhteyttä</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="meista">
+            <h2 data-i18n="meista.otsikko">Meistä</h2>
+            <p data-i18n="meista.teksti">Alla esiteltynä tiimimme ja tietoa suunnitelmistamme</p>
+            <div class="alaosio">
+                <h3 data-i18n="meista.ketä">Ketä olemme</h3>
+                <div class="kortit">
+                    <div class="kortti">
+                        <div class="henkilo">
+                        <img src="pielatech-4.jpg" alt="Immo Kantola">
+                        <h4>Immo Kantola</h4>
+                        <p data-i18n="meista.immo">Toimitusjohtaja & koodari</p>
+                        </div>
+                        <div class="henkilo">
+                        <img src="pielatech-3.jpg" alt="Riku Marin">
+                        <h4>Riku Marin</h4>
+                        <p data-i18n="meista.riku">Markkinointipäällikkö</p> 
+                        </div>
+                        <div class="henkilo">
+                        <img src="pielatech-5.jpg" alt="Basior Kärkkäinen">
+                        <h4>Basior Kärkkäinen</h4>
+                        <p data-i18n="meista.basior">Teknologiavastaava & tekoälyasiantuntija</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="alaosio">
+                <h3 data-i18n="meista.kotoisin">Mistä olemme kotoisin ja mitä teimme ennen</h3>
+                <p data-i18n="meista.kotoisin_teksti">Olemme kotoisin Pielavedeltä, Suomesta. Aloitimme bisneksemme tarjoamalla digiapua Pielaveden keskustassa. Teemme sitä nykyäänkin, ajanvarauksella.</p>
+            </div>
+            <div class="alaosio">
+                <h3 data-i18n="meista.tahtaamme">Mihin tähtäämme tulevaisuudessa</h3>
+                <p data-i18n="meista.tahtaamme_teksti">Tarkoituksemme on rakentaa tekoälyautomaatiosta hyvin myyvä konsepti ja tulla kansainväliseksi yritykseksi.</p>
+            </div>
+        </section>
+        <section id="yhteydenotto">
+            <h2 data-i18n="yhteydenotto.otsikko">Ota yhteyttä</h2>
+            <p data-i18n="yhteydenotto.teksti">Kiinnostuitko? Jätä yhteystietosi niin olemme sinuun yhteydessä!</p>
+            <form class="yhteydenotto-lomake">
+                <input type="text" placeholder="Nimi"  data-i18n-placeholder="yhteydenotto.nimi" required>
+                <input type="email" placeholder="Sähköposti"  data-i18n-placeholder="yhteydenotto.sahkoposti" required>
+                <textarea placeholder="Aihe" data-i18n-placeholder="yhteydenotto.aihe" rows="1" required></textarea>
+                <textarea placeholder="Viesti" data-i18n-placeholder="yhteydenotto.viesti" rows="5" required></textarea>
+                <button type="submit" class="nappi" data-i18n="yhteydenotto.nappi">Lähetä viesti</button>
+            </form>
+        </section>
+    </body>
+</html>

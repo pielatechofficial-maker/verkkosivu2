@@ -1,0 +1,63 @@
+{
+    "nav": {
+        "automaatiomme": "Automaatiomme",
+        "agenttimme": "Agenttimme",
+        "meista": "Meistä",
+        "yhteydenotto": "Yhteydenotto"
+    },
+    "hero": {
+        "otsikko": "Tekoälyautomaatiot ja -agentit pienille ja keskikokoisille yrityksille",
+        "teksti": "PielaTechiltä valmiit tai täysin kustomoitavat tuotteet asennettuina -tietoturva edellä!",
+        "slogan": "Anna koneen tehdä sille tarkoitettu työ, keskity itse tärkeimpään.",
+        "nappi": "Ota yhteyttä"
+    },
+    "automaatiomme": {
+        "otsikko": "Automaatiomme",
+        "teksti": "Tarjoamme valmiita ja räätälöityjä tekoälyautomaatioita ja agentteja yrityksesi tarpeisiin.",
+        "valmiit": "Valmiit automaatiot",
+        "valmiit_teksti": "Nopeasti käyttöönotettavia tekoälyratkaisuja yleisimpiin liiketoiminnan tarpeisiin",
+        "sahkoposti": "Sähköpostiautomaatio",
+        "sahkoposti_teksti": "Automatisoi sähköpostiviestintäsi - tilausvahvistukset, muistutukset ja asiakasviestit hoituvat itsestään.",
+        "whatsapp": "WhatsApp -automaatio",
+        "whatsapp_teksti": "Kirjaa tilaukset WhatsApp-busineksesta suoraan exceliin! Todella hyvä esim. kahvilayrittäjille.",
+        "kirjanpito": "Kirjanpitoautomaatio",
+        "kirjanpito_teksti": "Automatisoi kirjanpidon rutiinit - laskujen käsittely, raportointi ja tietojen syöttö hoituvat automaattisesti.",
+        "kustom": "Kustom automaatiot",
+        "kustom_teksti": "Täysin räätälöityvät ratkaisut mille vain alalle!",
+        "nappi": "Ota yhteyttä"
+    },
+    "agenttimme": {
+        "otsikko": "Agenttimme",
+        "teksti": "Agentit mahdollistavat laajemman asian käsittelyn hallitusti.",
+        "valmiit": "Valmiit agentit",
+        "valmiit_teksti": "Agentit toimivat itsenäisesti ja toimivat saadun tiedon pohjalta.",
+        "data": "Data-analyysi agentti",
+        "data_teksti": "Analysoi yrityksesi dataa automaattisesti ja antaa parannusehdotuksia",
+        "puhelu": "Puheluagentti",
+        "puhelu_teksti": "Vastaa puheluihin automaattisesti, jos olet sillä hetkellä varattu tai kiireinen.",
+        "kustom": "Kustom agentit",
+        "kustom_teksti": "Täysin räätälöidyt agentit juuri sinun yrityksesi tarpeisiin! Kerro tarpeesi tai ilmaise mielenkiintosi, niin suunnitellaan ja rakennetaan sopiva ratkaisu!",
+        "nappi": "Ota yhteyttä"
+    },
+    "meista": {
+        "otsikko": "Meistä",
+        "teksti": "Alla esiteltynä tiimimme ja tietoa suunnitelmistamme",
+        "ketä": "Ketä olemme",
+        "immo": "Toimitusjohtaja & koodari",
+        "riku": "Markkinointipäällikkö",
+        "basior": "Teknologiavastaava & tekoälyasiantuntija",
+        "kotoisin": "Mistä olemme kotoisin ja mitä teimme ennen",
+        "kotoisin_teksti": "Olemme kotoisin Pielavedeltä, Suomesta. Aloitimme bisneksemme tarjoamalla digiapua Pielaveden keskustassa. Teemme sitä nykyäänkin, ajanvarauksella.",
+        "tahtaamme": "Mihin tähtäämme tulevaisuudessa",
+        "tahtaamme_teksti": "Tarkoituksemme on rakentaa tekoälyautomaatiosta hyvin myyvä konsepti ja tulla kansainväliseksi yritykseksi."
+    },
+    "yhteydenotto": {
+        "otsikko": "Ota yhteyttä",
+        "teksti": "Kiinnostuitko? Jätä yhteystietosi niin olemme sinuun yhteydessä!",
+        "nimi": "Nimi",
+        "sahkoposti": "Sähköposti",
+        "aihe": "Aihe",
+        "viesti": "Viesti",
+        "nappi": "Lähetä viesti"
+    }
+}
