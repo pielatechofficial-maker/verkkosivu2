@@ -17,6 +17,7 @@ hampurilainen.addEventListener("click", function() {
 });
 
 let nykyinenKieli = "fi";
+let nykyisetTekstit = {};
 
 async function lataaKieli(kieli) {
     const kieliVastaus = await fetch(`${kieli}.json`);
@@ -28,6 +29,7 @@ async function vaihdaKieli() {
     nykyinenKieli = nykyinenKieli === "fi" ? "en" : "fi";
 
     const tekstit = await lataaKieli(nykyinenKieli);
+    nykyisetTekstit = tekstit;
 
     document.querySelectorAll("[data-i18n]").forEach(elementti => {
         const avain = elementti.getAttribute("data-i18n");
@@ -65,6 +67,7 @@ const tarkkailijat = new IntersectionObserver((merkinnät) => {
 osiot.forEach(osio => tarkkailijat.observe(osio));
 async function alustaKieli() {
     const tekstit = await lataaKieli("fi");
+    nykyisetTekstit = tekstit;
 
     document.querySelectorAll("[data-i18n]").forEach(elementti => {
         const avain = elementti.getAttribute("data-i18n");
@@ -82,3 +85,22 @@ async function alustaKieli() {
 }
 
 alustaKieli();
+
+emailjs.init({
+    publicKey: "A4cQYxw-ilG_-05g-",
+});
+
+const lomake = document.getElementById("yhteydenotto-lomake");
+
+lomake.addEventListener("submit", function(tapahtuma) {
+    tapahtuma.preventDefault();
+
+    emailjs.sendForm("service_yk01gjo", "template_zp0ds87", lomake)
+        .then(function() {
+            alert(nykyisetTekstit.yhteydenotto.onnistui);
+            lomake.reset();
+        })
+        .catch(function(virhe) {
+            alert(nykyisetTekstit.yhteydenotto.virhe);
+        });
+});

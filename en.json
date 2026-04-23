@@ -58,6 +58,8 @@
         "sahkoposti": "Your Email",
         "aihe": "Subject",
         "viesti": "Message",
-        "nappi": "Send Message"
+        "nappi": "Send Message",
+        "onnistui": "Message sent succesfully!",
+        "virhe": "Error sending massage. Please try again."
     }
 }

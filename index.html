@@ -5,14 +5,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>PielaTech</title>
         <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+        <link rel="icon" type="image/png" href="Pielateching vonkura.png">
         <script src="script.js" defer></script>
     </head>
     <body>
         <nav>
             <div class="nav-container">
                 <div class="logo">
-                    PielaTech
                     <img src="Pielatechin vonkura.png" alt="PielaTech logo">
+                    PielaTech
                 </div>
                 <ul class="nav-links">
                     <li><a href="#automaatiomme" data-i18n="nav.automaatiomme">Automaatiomme</a></li>
@@ -35,7 +37,7 @@
             <h1 data-i18n="hero.otsikko">Tekoälyautomaatiot ja -agentit pienille ja keskikokoisille yrityksille</h1>
             <p data-i18n="hero.teksti">PielaTechiltä valmiit tai täysin kustomoitavat tuotteet asennettuina -tietoturva edellä!</p>
             <p class="slogan" data-i18n="hero.slogan">Anna koneen tehdä sille tarkoitettu työ, keskity itse tärkeimpään.</p>
-            <a href="#yhteydenotto" class="nappi" data-i18n="hero.nappi">Ota yhteyttä</a>
+            <a href="#yhteydenotto" class="nappi nappi-hero" data-i18n="hero.nappi">Ota yhteyttä!</a>
         </section>
         <section id="automaatiomme">
             <h2 data-i18n="automaatiomme.otsikko">Automaatiomme</h2>
@@ -63,7 +65,7 @@
                     <h3 data-i18n="automaatiomme.kustom">Kustom automaatiot</h3>
                     <div class="kortti">
                         <p data-i18n="automaatiomme.kustom_teksti">Täysin räätälöityvät ratkaisut mille vain alalle!</p>
-                        <a href="#yhteydenotto" class="nappi" data-i18n="automaatiomme.nappi">Ota yhteyttä</a>
+                        <a href="#yhteydenotto" class="nappi nappi-automaatio" data-i18n="automaatiomme.nappi">Kysy lisää!</a>
                     </div>
                 </div>
             </div>
@@ -90,7 +92,7 @@
                     <h3 data-i18n="agenttimme.kustom">Kustom agentit</h3>
                     <div class="kortti">
                         <p data-i18n="agenttimme.kustom_teksti">Täysin räätälöidyt agentit juuri sinun yrityksesi tarpeisiin! Kerro tarpeesi tai ilmaise mielenkiintosi, niin suunnitellaan ja rakennetaan sopiva ratkaisu!</p>
-                        <a href="#yhteydenotto" class="nappi" data-i18n="agenttimme.nappi">Ota yhteyttä</a>
+                        <a href="#yhteydenotto" class="nappi nappi-agentti" data-i18n="agenttimme.nappi">Kysy lisää!</a>
                     </div>
                 </div>
             </div>
@@ -132,11 +134,11 @@
         <section id="yhteydenotto">
             <h2 data-i18n="yhteydenotto.otsikko">Ota yhteyttä</h2>
             <p data-i18n="yhteydenotto.teksti">Kiinnostuitko? Jätä yhteystietosi niin olemme sinuun yhteydessä!</p>
-            <form class="yhteydenotto-lomake">
-                <input type="text" placeholder="Nimi"  data-i18n-placeholder="yhteydenotto.nimi" required>
-                <input type="email" placeholder="Sähköposti"  data-i18n-placeholder="yhteydenotto.sahkoposti" required>
-                <textarea placeholder="Aihe" data-i18n-placeholder="yhteydenotto.aihe" rows="1" required></textarea>
-                <textarea placeholder="Viesti" data-i18n-placeholder="yhteydenotto.viesti" rows="5" required></textarea>
+            <form class="yhteydenotto-lomake" id="yhteydenotto-lomake">
+                <input type="text" name="nimi" placeholder="Nimi" data-i18n-placeholder="yhteydenotto.nimi" required>
+                <input type="email" name="sahkoposti" placeholder="Sähköposti" data-i18n-placeholder="yhteydenotto.sahkoposti" required>
+                <textarea name="aihe" placeholder="Aihe" data-i18n-placeholder="yhteydenotto.aihe" rows="1" required></textarea>
+                <textarea name="viesti" placeholder="Viesti" data-i18n-placeholder="yhteydenotto.viesti" rows="5" required></textarea>
                 <button type="submit" class="nappi" data-i18n="yhteydenotto.nappi">Lähetä viesti</button>
             </form>
         </section>

@@ -1,7 +1,4 @@
 * {
-    outline: 1px solid red;
-}
-* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,6 +8,15 @@ body {
     background-color: #ffffff;
     color: #1a1a1a;
     line-height: 1.6;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+html, body {
+    overflow-x: hidden;
+    width: 100%;
 }
 nav {
     position: fixed;
@@ -53,14 +59,15 @@ nav {
 .logo {
     display: flex;
     align-items: center;
-    gap: 8px;
-    font-size: 3rem;
+    gap: 6px;
+    font-size: 4rem;
     font-weight: 700;
     flex: 1;
+    justify-content: flex-start;
 }
 
 .logo img {
-    height: 10rem;
+    height: 5rem;
     width: auto;
 }
 #hero {
@@ -90,6 +97,17 @@ nav {
     font-style: italic;
     margin-bottom: 30px;
 }
+
+.kieli-nappi {
+    background-color: #dbeafe;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: #2563eb;
+}
 .nappi {
     display: inline-block;
     background-color: #2563eb;
@@ -101,19 +119,26 @@ nav {
     font-size: 2rem;
     transition: background-color 0.3s ease;
 }
-.kieli-nappi {
-    background-color: #dbeafe;
-    border: none;
-    border-radius: 8px;
-    padding: 6px 12px;
-    font-size: 1rem;
-    font-weight: 600;
-    cursor: pointer;
-    color: #2563eb;
+.nappi-hero {
+    background-color: #2563eb;
 }
-
+.nappi-automaatio {
+    background-color: #7a0800;
+}
+.nappi-agentti {
+    background-color: #681a8d;
+}
 .nappi:hover {
     background-color: #1d4ed8;
+}
+.nappi-hero:hover {
+    background-color: #2222ee;
+}
+.nappi-automaatio:hover {
+    background-color: #310c02;
+}
+.nappi-agentti:hover {
+    background-color: #2f1658;
 }
 section {
     padding: 100px 40px;
@@ -167,6 +192,24 @@ section > p {
     margin: 0 0 15px 0;
     max-width: 100%;
 }
+#automaatiomme .tuote-sarake:nth-child(1) .kortti {
+    background-color: #dbeafe;
+}
+
+#automaatiomme .tuote-sarake:nth-child(2) .kortti {
+    background-color: #b7eaff7a;
+}
+#agenttimme .tuote-sarake:nth-child(1) .kortti {
+    background-color: #f1e0ff;
+}
+#agenttimme .tuote-sarake:nth-child(2) .kortti {
+    background-color: #fff2f9;
+}
+
+#meista .kortti {
+    background-color: #ffffff;
+}
+
 .tuote-rivi {
     display: flex;
     gap: 60px;
@@ -260,68 +303,6 @@ body.dark section > p {
     background-color: #1a1a1a;
     border-radius: 3px;
 }
-@media (max-width: 1024px) {
-    nav {
-    padding: 10px 20px;
-    }
-    .tuote-rivi {
-    flex-direction: column;
-    }
-}
-@media (max-width: 768px) {
-    .nav-links {
-        display: none;
-    }
-    .logo {
-        font-size: 1.5rem;
-    }
-    .logo img {
-        height: 3rem;
-    }
-    .hampurilainen {
-        display: flex;
-    }
-    #hero h1 {
-        font-size: 2rem;
-    }
-    section {
-        padding: 60px 20px;
-    }
-    .nav-links.auki {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        top: 100%;
-        background-color: #ffffff;
-        padding: 20px;
-        gap: 20px;
-    }
-    nav {
-        padding: 12px 16px;
-    }
-    .nav-napit {
-        flex: 0 1 auto;
-        gap: 8px;
-    }
-}
-@media (max-width: 480px) {
-    .logo {
-        font-size: 1rem;
-    }
-    .logo img {
-        height: 2rem;
-    }
-    .kieli-nappi {
-        font-size: 0.85rem;
-        padding: 4px 8px;
-    }
-    .teema-nappi {
-        font-size: 1.2rem;
-    }
-    nav {
-        padding: 10px 12px;
-    }
-}
 #meista .kortti {
     display: flex;
     flex-direction: row;
@@ -361,4 +342,127 @@ body.dark section > p {
     color: #444444;
     line-height: 1.8;
     max-width: 700px;
+}
+@media (max-width: 1458px) {
+    nav {
+        padding: 10px 20px;
+    }
+    .logo {
+        font-size: 2rem;
+    }
+    .logo img {
+        height: 1.5rem;
+    }
+    .nav-links {
+        gap: 20px;
+    }
+    .nav-links a {
+        font-size: 1rem;
+    }
+    .nav-napit {
+        gap: 8px;
+    }
+    .tuote-rivi {
+        flex-direction: column;
+    }
+}
+@media (max-width: 1024px) {
+    nav {
+        padding: 10px 20px;
+    }
+    .logo {
+        font-size: 1.5rem;
+    }
+    .logo img {
+        height: 1rem;
+    }
+    .nav-links {
+        gap: 20px;
+    }
+    .nav-links a {
+        font-size: 0.9rem;
+    }
+    .nav-napit {
+        gap: 8px;
+    }
+    .tuote-rivi {
+        flex-direction: column;
+    }
+}
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+    .hampurilainen {
+        order: 3;
+    }
+    .nav-napit {
+        order: 2;
+    }
+    .logo {
+        order: 1;
+        flex: 0 1 auto;
+        font-size: 1.5rem;
+    }
+    .logo img {
+        height:3rem;
+    }
+    .hampurilainen {
+        display: flex;
+    }
+    #hero h1 {
+        font-size: 2rem;
+    }
+    section {
+        padding: 60px 20px;
+    }
+    .nav-links.auki {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        background-color: #ffffff;
+        padding: 20px;
+        gap: 20px;
+    }
+    nav {
+        padding: 16px 20px;
+    }
+    .nav-napit {
+        flex: 0 1 auto;
+        gap: 8px;
+    }
+    #meista .kortti {
+        flex-direction: column;
+    }
+    .alaosio h3 {
+        font-size: 1.3rem;
+    }
+    .alaosio p {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 480px) {
+    .logo {
+        font-size: 1.5rem;
+    }
+    .logo img {
+        height: 2rem;
+    }
+    .kieli-nappi {
+        font-size: 0.85rem;
+        padding: 4px 8px;
+    }
+    .teema-nappi {
+        font-size: 1.2rem;
+    }
+    nav {
+        padding: 10px 25px;
+    }
+    .alaosio h3 {
+        font-size: 1.3rem;
+    }
+    .alaosio p {
+        font-size: 1rem;
+    }
 }
