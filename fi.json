@@ -6,7 +6,7 @@
         "yhteydenotto": "Yhteydenotto"
     },
     "hero": {
-        "otsikko": "Tekoälyautomaatiot PK-yrityksille!",
+        "otsikko": "Tekoälyautomaatiot pienille- ja keskisuurille yrityksille!",
         "teksti": "PielaTechiltä valmiit tai täysin kustomoitavat tuotteet asennettuina -tietoturva edellä!",
         "slogan": "Anna koneen tehdä sille tarkoitettu työ, keskity itse tärkeimpään.",
         "nappi": "Ota yhteyttä!"
@@ -15,28 +15,30 @@
         "otsikko": "Automaatiomme",
         "teksti": "Tarjoamme valmiita ja räätälöityjä tekoälyautomaatioita ja agentteja yrityksesi tarpeisiin.",
         "valmiit": "Prototyyppi automaatiot",
-        "valmiit_teksti": "Helposti käyttöönotettavia tekoälyratkaisuja yleisimpiin liiketoiminnan tarpeisiin",
+        "valmiit_teksti": "Helposti käyttöönotettavia tekoälyratkaisuja yleisimpiin liiketoiminnan tarpeisiin.",
         "sahkoposti": "Sähköpostiautomaatio",
         "sahkoposti_teksti": "Automatisoi sähköpostiviestintäsi - tilausvahvistukset, muistutukset ja asiakasviestit hoituvat itsestään.",
         "whatsapp": "WhatsApp -automaatio",
-        "whatsapp_teksti": "Kirjaa tilaukset WhatsApp-busineksesta suoraan exceliin! Todella hyvä esim. kahvilayrittäjille.",
+        "whatsapp_teksti": "Kirjaa tilaukset WhatsApp-busineksesta suoraan kalenteriin! Todella hyvä esim. kahvilayrittäjille.",
         "kirjanpito": "Kirjanpitoautomaatio",
         "kirjanpito_teksti": "Automatisoi kirjanpidon rutiinit - laskujen käsittely, raportointi ja tietojen syöttö hoituvat automaattisesti.",
         "kustom": "Kustom automaatiot",
-        "kustom_teksti": "Täysin räätälöityvät ratkaisut mille vain alalle!",
+        "kustom_kuvaus": "Räätälöidyt automaatiot mille vain alalle.",
+        "kustom_teksti": "Ota yhteyttä, niin katsotaan paras ratkaisu!",
         "nappi": "Kysy lisää!"
     },
     "agenttimme": {
         "otsikko": "Agenttimme",
         "teksti": "Agentit mahdollistavat laajemman asian käsittelyn hallitusti.",
-        "valmiit": "Valmiit agentit",
-        "valmiit_teksti": "Agentit toimivat itsenäisesti ja toimivat saadun tiedon pohjalta.",
+        "valmiit": "Prototyyppi agentit",
+        "valmiit_teksti": "Agentit toimivat itsenäisesti ja saadun tiedon pohjalta.",
         "data": "Data-analyysi agentti",
         "data_teksti": "Analysoi yrityksesi dataa automaattisesti ja antaa parannusehdotuksia",
         "puhelu": "Puheluagentti",
         "puhelu_teksti": "Vastaa puheluihin automaattisesti, jos olet sillä hetkellä varattu tai kiireinen.",
         "kustom": "Kustom agentit",
-        "kustom_teksti": "Täysin räätälöidyt agentit juuri sinun yrityksesi tarpeisiin! Kerro tarpeesi tai ilmaise mielenkiintosi, niin suunnitellaan ja rakennetaan sopiva ratkaisu!",
+        "kustom_kuvaus": "Suunnittelemme ja rakennamme agentin jokaiseen tarpeeseen.",
+        "kustom_teksti": "Täysin räätälöidyt agentit juuri sinun yrityksellesi, joilla oikeasti säästät aikaa.",
         "nappi": "Kysy lisää!"
     },
     "meista": {

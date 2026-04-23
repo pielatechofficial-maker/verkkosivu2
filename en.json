@@ -6,15 +6,15 @@
         "yhteydenotto": "Contact"
     },
     "hero": {
-        "otsikko": "AI Automations and Agents for Small and Medium-sized Businesses",
+        "otsikko": "AI Automations for Small and Medium-sized Businesses!",
         "teksti": "From PielaTech — ready-made or fully customizable products, installed with security first!",
         "slogan": "Let the machine do what it's made for, focus on what matters most.",
-        "nappi": "Contact Us"
+        "nappi": "Contact Us!"
     },
     "automaatiomme": {
         "otsikko": "Our Automations",
         "teksti": "We offer ready-made and custom AI automations and agents for your business needs.",
-        "valmiit": "Ready-made Automations",
+        "valmiit": "Prototype Automations.",
         "valmiit_teksti": "Quickly deployable AI solutions for the most common business needs",
         "sahkoposti": "Email Automation",
         "sahkoposti_teksti": "Automate your email communication — order confirmations, reminders and customer messages handled automatically.",
@@ -23,21 +23,23 @@
         "kirjanpito": "Bookkeeping Automation",
         "kirjanpito_teksti": "Automate bookkeeping routines — invoice processing, reporting and data entry handled automatically.",
         "kustom": "Custom Automations",
-        "kustom_teksti": "Fully customizable solutions for any industry!",
-        "nappi": "Contact Us"
+        "kustom_kuvaus": "Tailored automations for any industry.",
+        "kustom_teksti": "Get in touch and let's find the best solution!",
+        "nappi": "Ask more!"
     },
     "agenttimme": {
         "otsikko": "Our Agents",
         "teksti": "Agents enable handling of broader tasks in a controlled manner.",
-        "valmiit": "Ready-made Agents",
+        "valmiit": "Prototype Agents",
         "valmiit_teksti": "Agents work independently based on the information they receive.",
         "data": "Data Analysis Agent",
         "data_teksti": "Automatically analyzes your business data and provides improvement suggestions",
         "puhelu": "Call Agent",
         "puhelu_teksti": "Answers calls automatically when you are busy or unavailable.",
         "kustom": "Custom Agents",
-        "kustom_teksti": "Fully customized agents for your business needs! Tell us what you need and we'll design and build the right solution!",
-        "nappi": "Contact Us"
+        "kustom_kuvaus": "We design and build an agent for every need.",
+        "kustom_teksti": "Fully customized agents for your business that actually save you time.",
+        "nappi": "Ask more!"
     },
     "meista": {
         "otsikko": "About Us",
@@ -59,7 +61,7 @@
         "aihe": "Subject",
         "viesti": "Message",
         "nappi": "Send Message",
-        "onnistui": "Message sent succesfully!",
-        "virhe": "Error sending massage. Please try again."
+        "onnistui": "Message sent successfully!",
+        "virhe": "Error sending message. Please try again."
     }
 }
