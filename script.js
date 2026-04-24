@@ -78,7 +78,7 @@ if (window.innerWidth <= 768) {
                 if (aktiivinen) aktiivinen.classList.add("aktiivinen");
             }
         });
-    }, { threshold: 0.05, rootMargin: "-10% 0px 0px -10% 0px" });
+    }, { threshold: 0.05, rootMargin: "-10% 0px -10% 0px" });
 
     osiot.forEach(osio => mobiiliTarkkailijat.observe(osio));
 }
