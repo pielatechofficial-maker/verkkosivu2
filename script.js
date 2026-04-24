@@ -81,12 +81,13 @@ if (window.innerWidth <= 768) {
     }, { threshold: 0.05, rootMargin: "-10% 0px -10% 0px" });
 
     osiot.forEach(osio => mobiiliTarkkailijat.observe(osio));
+} else {
+    osiot.forEach(osio => tarkkailijat.observe(osio));
 }
 
-osiot.forEach(osio => tarkkailijat.observe(osio));
-async function alustaKieli() {
-    const tekstit = await lataaKieli("fi");
-    nykyisetTekstit = tekstit;
+    async function alustaKieli() {
+        const tekstit = await lataaKieli("fi");
+        nykyisetTekstit = tekstit;
 
     document.querySelectorAll("[data-i18n]").forEach(elementti => {
         const avain = elementti.getAttribute("data-i18n");
