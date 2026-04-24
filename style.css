@@ -48,6 +48,7 @@ nav {
     justify-content: center;
 }
 .nav-links a {
+    font-size: 1.3rem;
     text-decoration: none;
     color: #1a1a1a;
     font-weight: 500;
@@ -86,10 +87,10 @@ nav {
     line-height: 1.2;
 }
 #hero p {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     color: #444444;
     margin-bottom: 20px;
-    max-width: 600px;
+    max-width: 800px;
 }
 #hero .slogan {
     font-size: 1rem;
@@ -120,25 +121,25 @@ nav {
     transition: background-color 0.3s ease;
 }
 .nappi-hero {
-    background-color: #2563eb;
+    background-color: #0f81ecfd;
 }
 .nappi-automaatio {
-    background-color: #0b729e7a;
+    background-color: #0b729ef1;
 }
 .nappi-agentti {
-    background-color: #3e45af;
+    background-color: #444986;
 }
 .nappi:hover {
     background-color: #1d4ed8;
 }
 .nappi-hero:hover {
-    background-color: #5252ec;
+    background-color: #085caafd;
 }
 .nappi-automaatio:hover {
-    background-color: #0234477a;
+    background-color: #144764;
 }
 .nappi-agentti:hover {
-    background-color: #302ebb;
+    background-color: rgb(40, 39, 88);
 }
 section {
     padding: 100px 40px;
@@ -186,7 +187,7 @@ section > p {
     padding-left: 30px;
 }
 .kortti p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #1a1414;
     text-align: left !important;
     margin: 0 0 15px 0;
@@ -200,7 +201,7 @@ section > p {
     background-color: #0c9ad67a;
 }
 #agenttimme .tuote-sarake:nth-child(1) .kortti {
-    background-color: #f1e0ff;
+    background-color: #caa1ec;
 }
 #agenttimme .tuote-sarake:nth-child(2) .kortti {
     background-color: #7a73b1;
@@ -270,23 +271,53 @@ body.dark #hero .slogan {
 body.dark .nav-links a {
     color: #f1f5f9;
 }
+body.dark .hampurilainen span {
+    background-color: #f1f5f9;
+}
+body.dark .nav-links.auki a {
+    color: #1a1a1a;
+}
 body.dark .kortti p {
     color: #f1f5f9;
 }
 body.dark .kortti h4 {
-    color: #f1f5f9;
+    color: #000000;
 }
 body.dark .tuote-sarake h3 {
     color: #f1f5f9;
 }
 body.dark .tuote-sarake p {
-    color: #f1f5f9;
+    color: #ffffff;
+}
+body.dark #automaatiomme .tuote-sarake:nth-child(1) .kortti p {
+    color: #111111;
+}
+body.dark #agenttimme .tuote-sarake:nth-child(1) .kortti p {
+    color: #111111;
 }
 body.dark section h2 {
     color: #f1f5f9;
 }
 body.dark section > p {
     color: #f1f5f9;
+}
+body.dark #agenttimme .tuote-sarake:nth-child(1) .kortti h4 {
+    color: #111111;
+}
+body.dark .alaosio h3 {
+    color: #f1f5f9;
+}
+body.dark .alaosio p {
+    color: #000000;
+}
+body.dark #meista .henkilo p {
+    color: #1a1a1a;
+}
+body.dark .nav-links a.aktiivinen {
+    color: #f1f5f9;
+}
+body.dark .nav-links.auki a.aktiivinen {
+    color: #1a1a1a;
 }
 .hampurilainen {
     display: none;
@@ -337,7 +368,7 @@ body.dark section > p {
     color: #1a1a1a;
 }
 
-.alaosio p {
+.alaosio > p {
     font-size: 2rem;
     color: #444444;
     line-height: 1.8;

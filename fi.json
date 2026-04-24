@@ -7,13 +7,13 @@
     },
     "hero": {
         "otsikko": "Tekoälyautomaatiot pienille- ja keskisuurille yrityksille!",
-        "teksti": "PielaTechiltä valmiit tai täysin kustomoitavat tuotteet asennettuina -tietoturva edellä!",
+        "teksti": "PielaTechiltä kustomoitavat tuotteet asennettuina -tietoturva edellä!",
         "slogan": "Anna koneen tehdä sille tarkoitettu työ, keskity itse tärkeimpään.",
         "nappi": "Ota yhteyttä!"
     },
     "automaatiomme": {
         "otsikko": "Automaatiomme",
-        "teksti": "Tarjoamme valmiita ja räätälöityjä tekoälyautomaatioita ja agentteja yrityksesi tarpeisiin.",
+        "teksti": "Tarjoamme tekoälyautomaatioita korvaamaan yrityksesi rutiinityöt.",
         "valmiit": "Prototyyppi automaatiot",
         "valmiit_teksti": "Helposti käyttöönotettavia tekoälyratkaisuja yleisimpiin liiketoiminnan tarpeisiin.",
         "sahkoposti": "Sähköpostiautomaatio",
@@ -45,8 +45,8 @@
         "otsikko": "Meistä",
         "teksti": "Alla esiteltynä tiimimme ja tietoa suunnitelmistamme",
         "ketä": "Ketä olemme",
-        "immo": "Toimitusjohtaja & koodari",
-        "riku": "Markkinointipäällikkö",
+        "immo": "Toimitusjohtaja & Kehittäjä",
+        "riku": "Markkinointipäällikkö & Graafinen suunnittelija",
         "basior": "Teknologiavastaava & tekoälyasiantuntija",
         "kotoisin": "Mistä olemme kotoisin ja mitä teimme ennen",
         "kotoisin_teksti": "Olemme kotoisin Pielavedeltä, Suomesta. Aloitimme bisneksemme tarjoamalla digiapua Pielaveden keskustassa. Teemme sitä nykyäänkin, ajanvarauksella.",

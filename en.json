@@ -7,13 +7,13 @@
     },
     "hero": {
         "otsikko": "AI Automations for Small and Medium-sized Businesses!",
-        "teksti": "From PielaTech — ready-made or fully customizable products, installed with security first!",
+        "teksti": "Fully implemented, tailored solutions from PielaTech — with security as the top priority!",
         "slogan": "Let the machine do what it's made for, focus on what matters most.",
         "nappi": "Contact Us!"
     },
     "automaatiomme": {
         "otsikko": "Our Automations",
-        "teksti": "We offer ready-made and custom AI automations and agents for your business needs.",
+        "teksti": "We deliver AI-powered automation to handle your business’s repetitive tasks.",
         "valmiit": "Prototype Automations.",
         "valmiit_teksti": "Quickly deployable AI solutions for the most common business needs",
         "sahkoposti": "Email Automation",
@@ -46,7 +46,7 @@
         "teksti": "Meet our team and learn about our plans",
         "ketä": "Who We Are",
         "immo": "CEO & Developer",
-        "riku": "Marketing Manager",
+        "riku": "Marketing Manager & Graphic Designer",
         "basior": "Technology Lead & AI Specialist",
         "kotoisin": "Where We Come From",
         "kotoisin_teksti": "We are from Pielavesi, Finland. We started our business by offering digital help in the center of Pielavesi. We still do that today, by appointment.",
