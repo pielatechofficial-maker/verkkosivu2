@@ -16,6 +16,12 @@ hampurilainen.addEventListener("click", function() {
     navLinks.classList.toggle("auki");
 });
 
+document.addEventListener("click", function(tapahtuma) {
+    if (!navLinks.contains(tapahtuma.target) && !hampurilainen.contains(tapahtuma.target)) {
+        navLinks.classList.remove("auki");
+    }
+});
+
 let nykyinenKieli = "fi";
 let nykyisetTekstit = {};
 
@@ -63,6 +69,19 @@ const tarkkailijat = new IntersectionObserver((merkinnät) => {
         }
     });
 }, { threshold: 0.3, rootMargin: "0px 0px -30% 0px" });
+if (window.innerWidth <= 768) {
+    const mobiiliTarkkailijat = new IntersectionObserver((merkinnät) => {
+        merkinnät.forEach(merkintä => {
+            if (merkintä.isIntersecting) {
+                navLinkit.forEach(linkki => linkki.classList.remove("aktiivinen"));
+                const aktiivinen = document.querySelector(`.nav-links a[href="#${merkintä.target.id}"]`);
+                if (aktiivinen) aktiivinen.classList.add("aktiivinen");
+            }
+        });
+    }, { threshold: 0.05, rootMargin: "0px 0px -50% 0px" });
+
+    osiot.forEach(osio => mobiiliTarkkailijat.observe(osio));
+}
 
 osiot.forEach(osio => tarkkailijat.observe(osio));
 async function alustaKieli() {

@@ -90,7 +90,7 @@ nav {
     font-size: 1.6rem;
     color: #444444;
     margin-bottom: 20px;
-    max-width: 800px;
+    max-width: 560px;
 }
 #hero .slogan {
     font-size: 1rem;
@@ -415,6 +415,10 @@ body.dark .nav-links.auki a.aktiivinen {
     }
     .nav-napit {
         gap: 8px;
+    }
+    #hero p {
+    font-size: 1.3rem;
+    max-width: 500px;
     }
     .tuote-rivi {
         flex-direction: column;
