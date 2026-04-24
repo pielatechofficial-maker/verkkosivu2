@@ -155,7 +155,7 @@ section > p {
     color: #444444;
     text-align: center;
     max-width: 700px;
-    margin: 0 auto 40px auto;
+    margin: 0 auto 140px auto;
 }
 .kortit {
     display: flex;
@@ -374,6 +374,12 @@ body.dark .nav-links.auki a.aktiivinen {
     line-height: 1.8;
     max-width: 700px;
 }
+#meista .alaosio h3 {
+    font-size: 2rem;
+}
+#meista .alaosio .kortti p {
+    font-size: 1.5rem;
+}
 @media (max-width: 1458px) {
     nav {
         padding: 10px 20px;
@@ -445,14 +451,14 @@ body.dark .nav-links.auki a.aktiivinen {
         grid-row: 1;
         align-self: start;
         margin: 0;
-        padding-bottom: 2.5rem;
+        padding-bottom: 0.5rem;
     }
     .henkilo-basior p {
         grid-column: 2;
         grid-row: 1;
         align-self: center;
         margin: 0;
-        padding-top: 2.5rem;
+        padding-top: 0.5rem;
     }
 }
 @media (max-width: 768px) {
