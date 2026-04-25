@@ -493,6 +493,15 @@ body.dark .nav-links.auki a.aktiivinen {
         padding: 60px 20px;
         scroll-margin-top: 80px;
     }
+    section h2 {
+        font-size: 1.8rem;
+    }
+    section > p {
+        font-size: 1rem;
+    }
+    .tuote-sarake h3 {
+    font-size: 1.5rem;
+    }
     .nav-links.auki {
         display: flex;
         flex-direction: column;
@@ -508,6 +517,17 @@ body.dark .nav-links.auki a.aktiivinen {
     .nav-napit {
         flex: 0 1 auto;
         gap: 8px;
+    }
+    .kortti {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .kortit {
+        width: 100%;
+    }
+    .tuote-sarake {
+        width: 100%;
+        max-width: 100%;
     }
     #meista .kortti {
         display: flex;
