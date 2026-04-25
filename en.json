@@ -6,7 +6,7 @@
         "yhteydenotto": "Contact"
     },
     "hero": {
-        "otsikko": "AI Automations for Small and Medium-sized Businesses",
+        "otsikko": "AI Automations for Small and Medium-Sized Businesses",
         "teksti": "Fully implemented, tailored solutions from PielaTech — with security as the top priority!",
         "slogan": "Let the machine do what it's made for, focus on what matters most.",
         "nappi": "Contact Us"
@@ -25,7 +25,7 @@
         "kustom": "Custom Automations",
         "kustom_kuvaus": "Tailored automations for any industry.",
         "kustom_teksti": "Get in touch and let's find the best solution!",
-        "nappi": "Ask more!"
+        "nappi": "Learn more!"
     },
     "agenttimme": {
         "otsikko": "Our Agents",
@@ -39,9 +39,9 @@
         "puhelu": "Call Agent",
         "puhelu_teksti": "Automatically answers calls, gathers the key information, and passes it on to you later — ideal when you're busy or unavailable.",
         "kustom": "Custom Agents",
-        "kustom_kuvaus": "We design and build an agent for every need.",
+        "kustom_kuvaus": "We design and build an agent for every need - together with the customer.",
         "kustom_teksti": "Fully customized agents for your business that actually save you time.",
-        "nappi": "Ask more!"
+        "nappi": "Learn more!"
     },
     "meista": {
         "otsikko": "About Us",
