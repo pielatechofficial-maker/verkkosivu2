@@ -237,6 +237,9 @@ section > p {
     font-family: "Segoe UI", Arial, sans-serif;
     width: 100%
 }
+.yhteydenotto-lomake textarea {
+    resize: vertical;
+}
 .yhteydenotto-lomake input:focus,
 .yhteydenotto-lomake textarea:focus {
     outline: none;
