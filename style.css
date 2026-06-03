@@ -195,17 +195,17 @@ section > p {
     max-width: 100%;
 }
 #automaatiomme .tuote-sarake:nth-child(1) .kortti {
-    background-color: #a5c7d1;
+    background-color: #ffffff;
 }
 
 #automaatiomme .tuote-sarake:nth-child(2) .kortti {
-    background-color: #0c9ad67a;
+    background-color: #ffffff;
 }
 #agenttimme .tuote-sarake:nth-child(1) .kortti {
-    background-color: #caa1ec;
+    background-color: #ffffff;
 }
 #agenttimme .tuote-sarake:nth-child(2) .kortti {
-    background-color: #7a73b1;
+    background-color: #ffffff;
 }
 
 #meista .kortti {
